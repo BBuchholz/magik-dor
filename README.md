@@ -1,7 +1,7 @@
 <h1 align='center'>🜾</h1>
 
 <p align='center'>
-  MaGiK WeL - Base Vite Template for Coventry Grove sites incorporating new SIS (Steps In Stone) Builder Structure
+  MaGiK DoR - Base Vite Template for Coventry Grove sites incorporating new myrKiSs Builder Structure
 </p>
 
 <p align='center'>
@@ -9,15 +9,16 @@
 </p>
 
 <p align='center'>
-For this Projeckt, tha Directive Came Through as "Carve Steps From Tha Worthy Mountain To Build Tha MaGiK WeL" and here we are
+For the previous Projeckt, <a href="https://github.com/BBuchholz/magik-wel">MaGiK WeL</a>, tha Directive Came Through as "Carve Steps From Tha Worthy Mountain To Build Tha MaGiK WeL" and here we are
 <br>
 </p>
 
+In this Projeckt, WE are beginning to follow those steps up to the DoR-WaY that opens only to the myrKiSs we find along the PaTh...
 
 <br>
 
 <p align='center'>
-<a href="https://magik-wel.netlify.app/">Live Demo</a>
+<a href="https://magik-dor.netlify.app/">Live Demo</a>
 </p>
 
 <br>
@@ -25,19 +26,19 @@ For this Projeckt, tha Directive Came Through as "Carve Steps From Tha Worthy Mo
 
 ## Try it now!
 
-> MaGiK WeL requires Node >=14.18
+> MaGiK DoR requires Node >=14.18
 
 ### GitHub Template
 
-[Create a repo from this template on GitHub](https://github.com/BBuchholz/magik-wel/generate).
+[Create a repo from this template on GitHub](https://github.com/BBuchholz/magik-dor/generate).
 
 ### Clone to local
 
 If you prefer to do it manually with the cleaner git history
 
 ```bash
-npx degit BBuchholz/magik-wel my-magik-wel-app
-cd my-magik-wel-app
+npx degit BBuchholz/magik-dor my-magik-dor-app
+cd my-magik-dor-app
 pnpm i # If you don't have pnpm installed, run: npm install -g pnpm
 ```
 
