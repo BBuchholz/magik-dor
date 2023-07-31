@@ -3,12 +3,12 @@ defineOptions({
   name: 'IndexPage',
 })
 const user = useUserStore()
-const name = $ref(user.savedName)
+const anyMyrKi = $ref(user.savedMyrKi)
 
 const router = useRouter()
 function go() {
-  if (name)
-    router.push(`/hi/${encodeURIComponent(name)}`)
+  if (anyMyrKi)
+    router.push(`/myrKiSs/${encodeURIComponent(anyMyrKi)}`)
 }
 
 const { t } = useI18n()
@@ -29,7 +29,7 @@ const { t } = useI18n()
     <div py-4 />
 
     <TheInput
-      v-model="name"
+      v-model="anyMyrKi"
       placeholder="enter myrKi..."
       autocomplete="false"
       @keydown.enter="go"
@@ -39,7 +39,7 @@ const { t } = useI18n()
     <div>
       <button
         m-3 text-sm btn
-        :disabled="!name"
+        :disabled="!anyMyrKi"
         @click="go"
       >
         {{ t('button.go') }}
