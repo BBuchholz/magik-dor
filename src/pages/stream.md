@@ -1,5 +1,5 @@
 ---
-title: MaGiK WeL - BuKeT
+title: MaGiK DoR - BuKeT
 ---
 
 <div class="text-center">
